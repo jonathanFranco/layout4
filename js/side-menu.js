@@ -1,6 +1,6 @@
 //Mobile Menu Script
 function openNav() {
-  document.getElementById("myNav").style.width = "100%";
+  document.getElementById("myNav").style.width = "85%";
   document.getElementById("menu-content").style.display = "initial";
   $("#side-menu-nav").css({'display':'block'});
 }
@@ -24,10 +24,10 @@ function closeNav() {
       }
 
       if ($(window).scrollTop() <= 500) {
-        $("#btntop").css({ 'display': 'none' });
+        $("#btntop").css({ 'display': 'none', 'transition':'0.5s' });
         $("#btn-fixed-style").css({ 'opacity': '0.7' });
       }else{
-        $("#btntop").css({ 'display': 'block' });
+        $("#btntop").css({ 'display': 'block', 'transition':'0.5s' });
         $("#btn-fixed-style").css({ 'opacity': '0.7' });
       }
 

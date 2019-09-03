@@ -294,8 +294,9 @@ header,
   #nav-color{
       background-image: linear-gradient(to right, #33b5e5, #0d47a1);
   }
-
-
+  .nav-link{
+    font-size: 27px!important;
+  }
 }
 
 @media (min-width: 800px) and (max-width: 850px) {
@@ -324,8 +325,9 @@ header,
   #nav-color{
       background-image: linear-gradient(to right, #33b5e5, #0d47a1);
   }
-
-
+  .nav-link{
+    font-size: 27px!important;
+  }
 }
 
 @media screen and (max-height: 450px) {
